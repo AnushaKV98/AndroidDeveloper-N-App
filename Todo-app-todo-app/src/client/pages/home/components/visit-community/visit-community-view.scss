@@ -1,0 +1,69 @@
+
+
+.voc-boxes {
+    margin-top: 56px;
+    position: relative;
+}
+
+.voc-box {
+    width: 396px;
+    height: 376px;
+    background-color: #eff7cf;
+    padding: 30px;
+    margin-top: 56px;
+}
+
+.voc-box .link1 {
+    position: absolute;
+    bottom: 40px;
+
+}
+
+.container1 .text2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+@media screen and (max-width : 768px) {
+    .container1 .text2 {
+        font-size: 32px;
+        height: 40px;
+
+    }
+
+    .visit-our-community {
+        height: 1184px;
+        width: 358px;
+        margin: auto;
+        position: relative;
+        top: 750px;
+    }
+
+    .text2 title is-2 {
+        font-size: 32px;
+        width: 358px;
+        height: 40px;
+    }
+
+    .voc-boxes {
+        display: flex;
+        top: 50px;
+        width: 358px;
+        flex-direction: column;
+    }
+
+    .voc-boxes .voc-box {
+        width: 100%;
+        padding: 15px 30px 15px 15px;
+        margin-top: 15px;
+        position: relative;
+    }
+
+    .voc-box .link1 {
+        position: absolute;
+        bottom: 30px;
+        color: #4285f4;
+        font-weight: bold;
+    }
+}

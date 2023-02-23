@@ -1,0 +1,78 @@
+.download-launch-view {
+    padding: 56px 0px;
+    height: 200px;
+    
+}
+.container1{
+    height: 88px;
+    margin: 0px 216px;
+    padding: 0px 64px;
+}
+.dlv-box {
+    width: 396px;
+    height: 88px;
+    background-color: #D7EFFE;
+}
+
+.dlv-box .content-box {
+    padding: 20px;
+    height: 88px;
+}
+
+.dlv-box .content-box img {
+    margin-right: 20px;
+}
+
+.second-div {
+    width: 100%;
+    margin-top: 15px;
+    position: relative;
+}
+
+.icon3 {
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (max-width : 768px) {
+
+    .download-launch-view {
+        padding: 32px 0px;
+        width: 390px;
+        height: 324px;
+    }
+    .container1{
+        width: 358px;
+        height: 260px;
+        padding: 0px 16px;
+        margin: 0;
+    }
+
+    .dlv-boxes {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 260px;
+    }
+
+    .dlv-box {
+        width: 358px;
+        margin: auto;
+        height: 76px;
+    }
+
+    .dlv-box .content-box {
+        padding: 14px 18px;
+        width: 358px;
+        height: 76px;
+    }
+
+    .dlv-box .content-box .second-div h2 {
+        font-size: 16px;
+    }
+
+    .dlv-box .content-box .title {
+        position: relative;
+        top: -1px;
+    }
+}

@@ -1,0 +1,80 @@
+.main-container {
+    height: 48px;
+    padding: 0px 16px 0px 24px;
+}
+
+.navbar-brand {
+    width: 134px;
+    height: 36px;
+}
+
+.navbar .navbar-brand img {  
+    width: 134px;
+    height: 36px;
+    margin: 6px 0px;    
+}
+
+.navbar-item {
+    font-size: 14px;
+    color: #5F6368;
+}
+
+.landd {
+    margin-top: 10px;
+    width: 130px;
+}
+
+@media screen and (min-width : 768px) {
+    .navbar-brand iconify-icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .navbar {
+        width: 390px;
+        height: 48px;
+        max-width: 100%;
+        position: fixed;
+        top: 0;
+    }
+
+    .navbar-start {
+        display: none;
+    }
+
+    .navbar-end {
+        display: none;
+    }
+
+    .navbar-brand .image1 {
+        position: absolute;
+        left: 80px;
+        top: 10px;
+        width: 120px;
+        height: 40px;
+
+    }
+
+    .navbar-brand .image1 img {
+        object-fit: contain;
+    }
+
+    .navbar-brand .icon1 iconify-icon {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        padding: 0px;
+        top: 10px;
+        object-fit: cover;
+    }
+
+    .navbar .sign-in {
+        width: 80px;
+        height: 30px;
+        position: absolute;
+        right: 0px;
+        top: 20px;
+        font-size: 15px;
+    }
+}
