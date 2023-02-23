@@ -1,0 +1,73 @@
+
+.android-for-dev{
+    background-color: #073042;
+    color: #FFF;
+    height: 536px;
+    width: 100%;
+}
+.android-for-dev .container1 {
+    padding-top: 80px;
+    margin: 0px 186px;
+    
+}
+.android-for-dev .container1 .left-text{
+    width: 720px;
+    padding-left: 60px;
+}
+// .android-for-dev  .container1 .right-image {
+// }
+.android-for-dev .container1 .left-text .main-text{
+    font-size: 64px ;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+.android-for-dev .container1 .left-text .sub-text{
+    margin: 16px 0px;
+    padding-bottom: 80px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.android-for-dev .container1 .left-text .search{
+    width: 610px;
+    height: 36px;
+}
+.android-for-dev .container1 .right-image img{
+    position: absolute;
+    top: 60px;
+}
+@media only screen and (max-width: 900px) {
+.android-for-dev{
+    width: 100%;
+    height: 406px;
+    margin: 0;
+}
+.android-for-dev .container1{
+    max-width: 390px;
+    height: 406px;
+    padding: 40px 24px 20px;
+    margin: 0;
+}
+.android-for-dev .container1 .left-text {
+    max-width: 100%;
+    height: 406px;
+    padding-left: 0;
+}
+.android-for-dev .container1 .left-text .main-text{
+    font-size: 40px ;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.android-for-dev .container1 .left-text .sub-text {
+    font-size: 20px;
+    text-align: center;
+    margin : 16px 0px;
+    padding: 20px 0px;
+}
+.android-for-dev .container1 .right-image{
+    display: none;
+}
+}
+    
+
+
